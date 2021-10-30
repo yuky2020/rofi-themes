@@ -6,6 +6,7 @@ configuration {
 	display-drun: 			"";
 	drun-display-format:            "{name}";
 	sidebar-mode: 			false;
+    	location: 			6;
 }
 
 @theme "/dev/null"
@@ -22,8 +23,9 @@ configuration {
 
 window {
 	border-radius:                  7px;
-	width:			    	50%;
-	padding: 			32px;
+	width:			    50%;
+   	height:             80%;
+	padding: 		10px;
 }
 
 prompt {
